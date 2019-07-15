@@ -1,0 +1,12 @@
+spring:
+  main:
+    banner-mode: "OFF"
+  jpa:
+    hibernate:
+      ddl-auto: "create"
+
+logging:
+  level:
+    root: ERROR
+    org.hibernate.SQL: DEBUG
+    io.mikael: DEBUG
